@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://jqueryui.com//resources/demos/style.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		
+		<div class="canvas">
+			
+				<div class="limited_container_1920">
+					<h1 class="haeder_table">Таблица</h1>
+					<div class="line_table">
+						<div class="block_table">
+							<p class="content_block_table">авто / Материал</p>
+						</div>
+						<div class="block_table">
+							<p class="content_block_table">Пленка Spectroll</p>
+						</div>
+						<div class="block_table">
+							<p class="content_block_table">Пленка Hexis</p>
+						</div>
+						<div class="block_table">
+							<p class="content_block_table">Пленка SunTek</p>
+						</div>
+						<div class="block_table">
+							<p class="content_block_table">Пленка LLumar</p>
+						</div>
+					</div>
+					<div class="line_table_2">
+						<div class="block_table">
+							<p class="auto_content">1 класс<br/>
+							(Mini cooper, Fiat 500)</p>
+						</div>
+						<div class="block_table">
+							<p class="price_content">53 000 ₽</p>
+						</div>
+						<div class="block_table">
+							<p class="price_content">64 000 ₽</p>
+						</div>
+						<div class="block_table">
+							<p class="price_content">69 000 ₽</p>
+						</div>
+						<div class="block_table">
+							<p class="price_content">72 000 ₽</p>
+						</div>
+					</div>
+					<h1 class="haeder_table">Таблица</h1>
+				</div>
+					
+					
+				
+				<div class="futer  futer_page_3">
+					<div class="contant_futer">
+						<h1 class="header_futer">ответим на любой вопрос</h1>
+						<div class="diamonds diamonds_futer">
+							<div class="diamond"></div>
+							<div class="diamond"></div>
+							<div class="diamond"></div>
+							<div class="diamond"></div>
+						</div>
+						<div class="container_registration">
+							<input class="name" placeholder="Имя"/>
+							<input class="phone" placeholder="телефон"/>
+						</div>
+						<div class="container_question">
+							<textarea class="question" placeholder="Вопрос по дизайну, тюнингу и др."></textarea>
+							<div class="container_messenger">
+								<div class="limited_container_messenger">
+									<a href="index.html">
+										<div class="messenger">
+											<i class="fa fa-telegram" aria-hidden="true"></i>
+										</div>
+									</a>
+									<a href="index.html">
+										<div class="messenger">
+											<i class="fa fa-youtube-play" aria-hidden="true"></i>
+										</div>
+									</a>
+									<a href="index.html">
+										<div class="messenger">
+											<i class="fa fa-vk" aria-hidden="true"></i>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container_info_futer">
+							<a href="index.html"><button class="btn_futer">отправить</button></a>
+							<div class="info_futer">
+								<p class="addres_futer"><i class="fa fa-map-marker" aria-hidden="true"></i>Eu faucibus et rutrum fringilla orci nunc</p>
+								<p class="mail_futer"><i class="fa fa-envelope" aria-hidden="true"></i>test@test.ru</p>
+								<p class="phone_futer"><i class="fa fa-phone" aria-hidden="true"></i>8 (812) 123-45-67</p>
+							</div>
+						</div>
+					</div>
+					<div class="futer_container_bottom">
+					<div class="container_futer_sitebar">
+						<div class="container_futer_sitebar_left">
+							<p class="text_futer">2022 © Est et viverra pellentesque pharetra lorem proin in. Vitae magna at tempus commodo.</p>
+						</div>
+						<div class="container_futer_sitebar_right">
+							<div class="conteiner_sitebar conteiner_sitebar_futer">
+								<div class="sitebar futer_sitebar">
+									<nav id="menu" class="menu_sitebar">
+									  <ul class="sitebar_list sitebar_list_futer">
+										<li class="sitebar_links sitebar_links_futer"><a href="index.html">Главная</a></li>
+										<li class="sitebar_links sitebar_links_futer"><a href="index.html">Оклейка автомобилей</a></li>
+										<li class="sitebar_links sitebar_links_futer"><a href="index.html">Детейлинг автомобилей</a></li>
+										<li class="sitebar_links sitebar_links_futer"><a href="index.html">Галерея работ</a></li>
+									  </ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			
+		</div>
+		
+		
+		<!--Подключаем jQuery.-->
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<!--Подключаем слайдер Slick.-->
+		<script src="js/slick.min.js"></script>
+		
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+		
+		<!-- -->
+		<script src="dist/slideout.min.js"></script>
+	    <script>
+	      var slideout = new Slideout({
+	        'panel': document.getElementById('panel'),
+	        'menu': document.getElementById('menu'),
+	        'padding': 256,
+	        'tolerance': 70
+	      });
+
+	      // Toggle button
+	      document.querySelector('.toggle-button').addEventListener('click', function() {
+	        slideout.toggle();
+	      });
+	    </script>
+		
+		<!--Подключаем анимации wow.js-->
+		<script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+		<!--Подключаем файл скриптов.-->
+		<script src="js/script.js"></script>
+	</body>
+</html>

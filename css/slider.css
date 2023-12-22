@@ -1,0 +1,136 @@
+/*Слайдер*/
+.slick-slider{}
+/*Ограничивающая оболочка*/
+.slick-list{
+	overflow: hidden;
+}
+/*Лента слайдов*/
+.slick-track{
+	display: flex;
+}
+
+/*Слайд*/
+.slick-slide{}
+/*Слайд активный*/
+.slick-slide.slick-active{}
+/*Слайд основной*/
+.slick-slide.slick-current{}
+/*Слайд по цунтру*/
+.slick-slide.slick-center{}
+
+/*Стрелка*/
+.slick-arrow{}
+/*Стрелка влево*/
+.slick-arrow.slick-prev{}
+/*Стрелка вправо*/
+.slick-arrow.slick-next{}
+/*Стрелка не активная*/
+.slick-arrow.slick-disabled{}
+
+/*Точки*/
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+
+.slider img{
+	width: 95%;
+}
+
+.slider{
+	position: relative;
+	overflow: hidden;
+	padding: 0 115px;
+}
+@media(max-width:1100px) {
+	.slider{
+		padding: 0 15px;
+	}
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -25px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+}
+
+.slider_item{
+	text-align: center;
+}
+.slider .slick-arrow.slick-prev{
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #DB3138;
+	transform: rotate(-45deg);
+	background: url(../images/PicsArt_11-15-12.30.54.png) center / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #DB3138;
+	transform: rotate(-45deg);
+	background: url(../images/PicsArt_11-15-12.34.20.png) center / 100% no-repeat;
+}
+
+
+
+/*slider_2--------------------------*/
+.container_guarantees_right{
+	position: relative;
+}
+
+.slider_2 img{
+	width: 100%;
+}
+
+.slider_2{
+	width: 100%;
+	max-width: 636px;
+	padding: 0px 0px;
+	float: right;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 2;
+}
+@media screen and (max-width: 1000px){
+	.slider_2{
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 700px){
+	.slider_2{
+		margin-bottom: 10px;
+	}
+}
+.slider_2 .slick-arrow{
+	position: absolute;
+	bottom: -90px;
+	margin: -25px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+}
+
+.slider_item_2{
+	text-align: center;
+}
+.slider_2 .slick-arrow.slick-prev{
+	left: 8px;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #DB3138;
+	transform: rotate(-45deg);
+	background: url(../images/PicsArt_11-15-12.30.54.png) center / 100% no-repeat;
+}
+.slider_2 .slick-arrow.slick-next{
+	right: 8px;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #DB3138;
+	transform: rotate(-45deg);
+	background: url(../images/PicsArt_11-15-12.34.20.png) center / 100% no-repeat;
+}
